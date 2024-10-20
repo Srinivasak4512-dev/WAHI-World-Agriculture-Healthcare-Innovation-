@@ -54,12 +54,12 @@ header nav ul li a {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-image: url('images/healthierworld.png'); /* Replace with the new image URL */
+    background-image: url('images/healthierworld01.png'); /* Replace with the new image URL */
     /* background-color: white; Keeping background white as per your request */
 }
 
 .hero.background-image {
-    background-image: url('images/healthierworld.png'); /* Replace with the new image URL */
+    background-image: url('images/healthierworld01.png'); /* Replace with the new image URL */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
