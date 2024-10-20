@@ -17,7 +17,6 @@ body {
 }
 
 /* Header Section */
-/* Common Background Section */
 .background-image {
     background-image: url('images/header.jpg'); /* Single background image */
     background-size: cover;
