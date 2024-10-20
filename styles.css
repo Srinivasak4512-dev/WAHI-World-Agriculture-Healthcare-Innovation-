@@ -27,16 +27,16 @@ header {
 }
 
 header .logo {
-    margin-bottom: 15px; /* Add space below the logo */
+    margin-bottom: 20px; /* Add space below the logo */
 }
 
 header .logo img {
-    width: 220px; /* Set the logo width */
+    width: 230px; /* Set the logo width */
     height: auto;
 }
 
 header .logo p {
-    font-size: 40px; /* Increase the font size for the company name */
+    font-size: 30px; /* Increase the font size for the company name */
     font-weight: bold;
 }
 
