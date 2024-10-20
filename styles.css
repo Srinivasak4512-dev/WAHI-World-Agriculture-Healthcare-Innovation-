@@ -135,7 +135,7 @@ figcaption {
 
 /* Services Section Styling */
 .services-section {
-    background-image: url('your-image-path/sleek-modern-background.png'); /* Path to your image */
+    background-image: url('images/sleek-modern-background.png'); /* Path to your image */
     background-size: cover;
     background-position: center;
     height: 100vh;
