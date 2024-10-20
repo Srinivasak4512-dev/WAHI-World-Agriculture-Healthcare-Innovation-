@@ -18,13 +18,10 @@ body {
 
 /* Header Section */
 header {
-        background-color: white; /* Set background to white */
-        color: #333; /* Change text color to dark for contrast */
-        height: 500px; /* Keep the height as is or adjust as needed */
-        text-align: center; 
-        display: flex; 
-        align-items: center; 
-        justify-content: center;
+    background-color: #2196F3;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
 }
 
 header .logo img {
@@ -50,12 +47,14 @@ header nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-color: white; /* Set background to white */
-    color: #333; /* Change text color to dark for contrast */
-    height: 500px; /* Keep the height as is or adjust as needed */
-    text-align: center; 
-    display: flex; 
-    align-items: center; 
+    background-image: url('images/hero-image.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
