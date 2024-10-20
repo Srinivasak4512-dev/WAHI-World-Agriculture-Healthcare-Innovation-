@@ -101,7 +101,7 @@ section {
     background-size: cover; /* Ensures the image covers the entire section */
     background-position: center; /* Centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    color: white; /* Change text color for readability */
+    color: black; /* Change text color for readability */
     padding: 60px 20px; /* Adjust padding as needed */
     text-align: center; /* Centers the text */
 }
