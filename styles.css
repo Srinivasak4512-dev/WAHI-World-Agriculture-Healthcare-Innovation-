@@ -18,10 +18,15 @@ body {
 
 /* Header Section */
 header {
-    background-color: #2196F3;
+    background-image: url('images/sleek-modern-background.png');
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 20px 0;
+    height: 500px;
     text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 header .logo img {
