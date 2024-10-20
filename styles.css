@@ -18,11 +18,14 @@ body {
 
 /* Header Section */
 header {
-    background-image: url('images/header.jpg');
+    background-image: url('images/header.jpg'); /* Replace with the actual image URL */
+    background-size: cover;
+    background-position: center;
     color: white;
-    padding: 20px 0;
     text-align: center;
+    padding: 20px 0px;
 }
+
 
 header .logo img {
     width: 200px;
