@@ -17,18 +17,28 @@ body {
 }
 
 /* Header Section */
-header {
-    background-image: url('images/header.jpg'); /* Replace with the actual image URL */
+/* Common Background Section */
+.background-image {
+    background-image: url('images/header.jpg'); /* Single background image */
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
     color: white;
-    text-align: center;
-    padding: 20px 0px;
 }
 
+/* Header Section */
+header {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+/* Apply background image to header */
+header.background-image {
+    color: white;
+}
 
 header .logo img {
-    width: 350px;
+    width: 250px;
     height: auto; /* Adjust height automatically */
 }
 
@@ -50,15 +60,16 @@ header nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/header.jpg');
-    background-size: cover;
-    background-position: center;
-    color: white;
     height: 500px;
     text-align: center;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* Apply background image to hero */
+.hero.background-image {
+    color: white;
 }
 
 .hero-text {
@@ -78,6 +89,7 @@ header nav ul li a {
 .cta-button:hover {
     background-color: #7CB342;
 }
+
 
 /* Services Section */
 section {
