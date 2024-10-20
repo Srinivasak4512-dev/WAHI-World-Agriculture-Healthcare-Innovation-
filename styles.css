@@ -10,7 +10,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
-    line-height: 1.6;
+    line-height: 2.6;
     margin: 0;
     padding: 0;
     height: 100%;
@@ -27,7 +27,7 @@ header {
 }
 
 header .logo img {
-    width: 220px;
+    width: 200px;
     height: auto; /* Adjust height automatically */
 }
 
