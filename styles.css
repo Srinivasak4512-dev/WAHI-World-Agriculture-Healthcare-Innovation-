@@ -26,7 +26,7 @@ header {
 
 header .logo img {
     width: 200px;
-    height: 200px;
+    height: auto; /* Adjust height automatically */
 }
 
 header nav ul {
@@ -47,7 +47,7 @@ header nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('hero-image.jpg');
+    background-image: url('images/sleek-modern-background.png');
     background-size: cover;
     background-position: center;
     color: white;
@@ -93,90 +93,37 @@ section {
 }
 
 .service-item {
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent for readability */
     border: 1px solid #ddd;
     padding: 20px;
     margin: 10px;
-    width: 200px;
+    width: 250px; /* Fixed width for consistency */
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; /* Rounded corners */
 }
 
 /* Gallery Styling */
 .image-gallery {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     margin: 20px 0;
 }
 
-.gallery-item {
-    width: 45%; /* Adjust width as needed */
-    margin: 10px;
-    border-radius: 8px; /* Optional: for rounded corners */
+.image-wrapper {
+    margin: 10px; /* Space between images */
+    width: 300px; /* Fixed width for all images */
+}
+
+.image-wrapper img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Rounded corners */
     transition: transform 0.3s; /* Optional: for a hover effect */
 }
 
-.gallery-item:hover {
+.image-wrapper img:hover {
     transform: scale(1.05); /* Optional: hover effect to scale up image */
-}
-
-figure {
-    width: 45%; /* Adjust to control the number of images per row */
-    margin: 15px 0; /* Space between rows */
-    text-align: center; /* Center the captions */
-    border-radius: 8px; /* Optional: for rounded corners */
-}
-
-figcaption {
-    margin-top: 10px; /* Space between image and caption */
-    font-size: 0.9em; /* Adjust caption font size */
-    color: #555; /* Caption text color */
-}
-
-/* Services Section Styling */
-#services {
-    background-image: url('images/sleek-modern-background.png'); /* Replace with the correct path to your image */
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    color: white; /* Change text color for readability */
-    padding: 60px 20px;
-    text-align: center;
-}
-
-.service-item {
-    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background for readability */
-    padding: 20px;
-    margin: 10px;
-    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow */
-    width: 250px;
-    border-radius: 8px; /* Optional: For rounded corners */
-    color: #333;
-}
-
-.services-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-
-h1 {
-    font-family: Arial, sans-serif;
-    font-size: 2.5em;
-    color: #333;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    font-size: 1.2em;
-    color: #333;
-}
-
-li {
-    margin: 10px 0;
 }
 
 /* About Section Styling */
@@ -184,9 +131,14 @@ li {
     text-align: center;
 }
 
+#about h2 {
+    margin-bottom: 20px;
+}
+
 #about ul {
     list-style: none;
     margin: 20px 0;
+    padding: 0;
 }
 
 #about ul li {
@@ -208,7 +160,8 @@ form label {
     margin: 10px 0 5px;
 }
 
-form input, form textarea {
+form input,
+form textarea {
     width: 100%;
     padding: 10px;
     margin: 10px 0;
