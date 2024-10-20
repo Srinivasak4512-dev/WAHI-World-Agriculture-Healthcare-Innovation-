@@ -1,34 +1,22 @@
+/* Reset and Box-Sizing */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.image-gallery {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 20px 0;
-}
-
-.gallery-item {
-    width: 45%; /* Adjust width as needed */
-    margin: 10px;
-    border-radius: 8px; /* Optional: for rounded corners */
-    transition: transform 0.3s; /* Optional: for a hover effect */
-}
-
-.gallery-item:hover {
-    transform: scale(1.05); /* Optional: hover effect to scale up image */
-}
-
+/* Global Body Styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     color: #333;
     line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
 
+/* Header Section */
 header {
     background-color: #2196F3;
     color: white;
@@ -57,6 +45,7 @@ header nav ul li a {
     font-weight: bold;
 }
 
+/* Hero Section */
 .hero {
     background-image: url('hero-image.jpg');
     background-size: cover;
@@ -87,6 +76,7 @@ header nav ul li a {
     background-color: #7CB342;
 }
 
+/* Services Section */
 section {
     padding: 60px 20px;
 }
@@ -111,6 +101,75 @@ section {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+/* Gallery Styling */
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    width: 45%; /* Adjust width as needed */
+    margin: 10px;
+    border-radius: 8px; /* Optional: for rounded corners */
+    transition: transform 0.3s; /* Optional: for a hover effect */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Optional: hover effect to scale up image */
+}
+
+figure {
+    width: 45%; /* Adjust to control the number of images per row */
+    margin: 15px 0; /* Space between rows */
+    text-align: center; /* Center the captions */
+    border-radius: 8px; /* Optional: for rounded corners */
+}
+
+figcaption {
+    margin-top: 10px; /* Space between image and caption */
+    font-size: 0.9em; /* Adjust caption font size */
+    color: #555; /* Caption text color */
+}
+
+/* Services Section Styling */
+.services-section {
+    background-image: url('your-image-path/sleek-modern-background.png'); /* Path to your image */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services-content {
+    background-color: rgba(255, 255, 255, 0.8); /* Light background for readability */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 2.5em;
+    color: #333;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1.2em;
+    color: #333;
+}
+
+li {
+    margin: 10px 0;
+}
+
+/* About Section Styling */
 #about {
     text-align: center;
 }
@@ -128,6 +187,7 @@ section {
     display: inline-block;
 }
 
+/* Contact Form Styling */
 form {
     max-width: 600px;
     margin: 20px auto;
@@ -157,6 +217,7 @@ form button:hover {
     background-color: #1976D2;
 }
 
+/* Footer Styling */
 footer {
     background-color: #333;
     color: white;
