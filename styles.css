@@ -17,27 +17,18 @@ body {
 }
 
 /* Header Section */
-.background-image {
-    background-image: url('images/header.jpg'); /* Single background image */
+header {
+    background-image: url('images/header.jpg'); /* Replace with the actual image URL */
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
     color: white;
-}
-
-/* Header Section */
-header {
-    padding: 20px 0px;
     text-align: center;
+    padding: 20px 0px;
 }
 
-/* Apply background image to header */
-header.background-image {
-    color: white;
-}
 
 header .logo img {
-    width: 220px;
+    width: 350px;
     height: auto; /* Adjust height automatically */
 }
 
