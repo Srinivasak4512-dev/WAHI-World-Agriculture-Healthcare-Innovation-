@@ -67,16 +67,16 @@ header nav ul li a {
 
 .hero-text {
     background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
+    padding: 30px;
     color: white;
 }
 
 .cta-button {
     background-color: #8BC34A;
     color: white;
-    padding: 10px 20px;
+    padding: 30px 10px;
     text-decoration: none;
-    border-radius: 5px;
+    border-radius: 6px;
     font-weight: bold;
 }
 
@@ -86,7 +86,7 @@ header nav ul li a {
 
 /* Services Section */
 section {
-    padding: 60px 20px;
+    padding: 80px 30px;
 }
 
 #services {
@@ -149,7 +149,7 @@ figcaption {
 /* About Section Styling */
 #about {
     text-align: center;
-    padding: 60px 20px;
+    padding: 80px 30px;
 }
 
 #about h2 {
