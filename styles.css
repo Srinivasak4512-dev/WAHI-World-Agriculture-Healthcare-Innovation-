@@ -4,6 +4,24 @@
     box-sizing: border-box;
 }
 
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px 0;
+}
+
+.gallery-item {
+    width: 45%; /* Adjust width as needed */
+    margin: 10px;
+    border-radius: 8px; /* Optional: for rounded corners */
+    transition: transform 0.3s; /* Optional: for a hover effect */
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Optional: hover effect to scale up image */
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
