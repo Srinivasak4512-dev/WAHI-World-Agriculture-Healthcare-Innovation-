@@ -26,27 +26,42 @@ header {
     padding: 30px 0;
 }
 
+header .logo {
+    margin-bottom: 10px; /* Add space below the logo */
+}
+
 header .logo img {
-    width: 190px;
-    height: auto; /* Adjust height automatically */
+    width: 150px; /* Set the logo width */
+    height: auto;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
-}
-
-header nav ul li {
-    display: inline;
-    margin: 0 15px;
-}
-
-header nav ul li a {
-    color: white;
-    text-decoration: none;
+header .logo p {
+    font-size: 24px; /* Increase the font size for the company name */
     font-weight: bold;
 }
 
+header nav ul {
+    list-style: none; /* Remove bullets */
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline-block; /* Align links horizontally */
+    margin: 0 15px; /* Space between the links */
+}
+
+header nav ul li a {
+    color: white; /* Set link color */
+    text-decoration: none; /* Remove underline from links */
+    font-size: 18px; /* Increase link font size */
+    font-weight: bold;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline; /* Add underline on hover */
+    color: #ffeb3b; /* Change color on hover */
+}
 /* Hero Section */
 .hero {
     height: 500px;
