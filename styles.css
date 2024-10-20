@@ -52,14 +52,12 @@ header nav ul li a {
 
 /* Hero Section */
 .hero {
-    background-image: url('images/sleek-modern-background.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    height: 500px;
-    text-align: center;
-    display: flex;
-    align-items: center;
+    background-color: white; /* Set background to white */
+    color: #333; /* Change text color to dark for contrast */
+    height: 500px; /* Keep the height as is or adjust as needed */
+    text-align: center; 
+    display: flex; 
+    align-items: center; 
     justify-content: center;
 }
 
@@ -87,8 +85,14 @@ section {
 }
 
 #services {
-    background-color: #f4f4f4;
-    text-align: center;
+    /* Services Section Styling */
+    background-image: url('images/sleek-modern-background.png'); /* Your new background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    color: white; /* Change text color for readability */
+    padding: 60px 20px; /* Adjust padding as needed */
+    text-align: center; /* Centers the text */
 }
 
 .services-container {
