@@ -125,7 +125,7 @@ section {
 
 .image-wrapper {
     margin: 10px;
-    width: 300px; /* Fixed width for all images */
+    width: 400px; /* Fixed width for all images */
 }
 
 .image-wrapper img {
